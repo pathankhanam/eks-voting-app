@@ -49,16 +49,6 @@ By working through this project, you'll develop a deeper understanding of cloud-
 
 ### **************************Steps to Deploy**************************
 
-Youtube Video to refer:
-
-[![Video Tutorial](https://img.youtube.com/vi/pTmIoKUeU-A/0.jpg)](https://youtu.be/pTmIoKUeU-A)
-
-Susbcribe:
-
-[https://www.youtube.com/@cloudchamp?
-](https://www.youtube.com/@cloudchamp?sub_confirmation=1)
-
-
 Create EKS cluster with NodeGroup (2 nodes of t2.medium instance type)
 Create EC2 Instance t2.micro (Optional)
 
@@ -113,11 +103,11 @@ Clone the github repo
 git clone https://github.com/N4si/K8s-voting-app.git
 ```
 
-**Create CloudChamp Namespace**
+**Create cloudapp Namespace**
 ```
-kubectl create ns cloudchamp
+kubectl create ns cloudapp
 
-kubectl config set-context --current --namespace cloudchamp
+kubectl config set-context --current --namespace cloudapp
 ```
 
 **MONGO Database Setup**
