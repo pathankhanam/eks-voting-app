@@ -100,7 +100,7 @@ If using EC2 and getting the "You must be logged in to the server (Unauthorized)
 
 Clone the github repo
 ```
-git clone https://github.com/N4si/K8s-voting-app.git
+git clone https://github.com/pathankhanam/eks-voting-app.git
 ```
 
 **Create cloudapp Namespace**
@@ -163,7 +163,7 @@ kubectl exec -it mongo-0 -- mongo --eval "rs.status()" | grep "PRIMARY\|SECONDAR
 ```
 
 Load the Data in the database by running this command:
-## Note: use langdb not langdb() as shown in the video
+## Note: use langdb not langdb() 
 ```
 cat << EOF | kubectl exec -it mongo-0 -- mongo
 use langdb;
